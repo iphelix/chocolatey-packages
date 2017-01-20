@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ollydbg2</id>
+    <version>2.01</version>
+    <title>OllyDbg2</title>
+    <authors>Oleh Yuschuk</authors>
+    <projectUrl>http://www.ollydbg.de/version2.html</projectUrl>
+    <licenseUrl>http://www.ollydbg.de/version2.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>OllyDbg2 is a 32-bit assembler level analysing debugger for Microsoft® Windows®. Emphasis on binary code analysis makes it particularly useful in cases where source is unavailable. OllyDbg is a shareware, but you can download and use it for free.
+
+New version with many new features, among them:
+Help on 77 pages. Please read it first - most of new features are described there
+Multilanguage GUI (experimental, as yet no translation files - please do it by yourself)
+Support for AVS instuctions (as yet no AVS2 and high 16 bytes of YMM registers are not displayed)
+Call stack window (similar to the version 1.10)
+Handles window (similar to the version 1.10)
+SEH and VEH chains. To decode addresses of VEH handlers, OllyDbg hacks NTDLL.RtlAddVectoredExceptionHandler(), therefore process must be started from the OllyDbg
+Multibyte character dumps
+.udl image libraries, replace scan of object files from v1.10
+Search for integers and floats in dump
+Search for procedures (entry points)
+Limited support for NTFS streams
+Drive dump
+Software breakpoints that use INT1, HLT, CLI, STI or INSB instead of INT3
+Multiple watches in one line, support for repeat count
+Dump of arrays of structures
+Micro-analysers
+Accelerated search
+Assembling of immediate data statements (DB xx etc.)
+Highlighting in run trace
+Up to 2 ordinals per address
+Limited support for Win95 via Microsoft Layer for UNICODE
+More tricky code sequences
+Show free memory, or was it the previous version?
+Multiple bugfixes</description>
+    <copyright>Shareware</copyright>
+    <tags>reverse engineering debugger disassembler binary analysis</tags>
+    <docsUrl>http://www.ollydbg.de/quickst.htm</docsUrl>
+  </metadata>
+</package>
