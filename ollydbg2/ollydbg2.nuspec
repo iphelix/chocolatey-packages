@@ -6,6 +6,7 @@
     <title>OllyDbg2</title>
     <authors>Oleh Yuschuk</authors>
     <projectUrl>http://www.ollydbg.de/version2.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/iphelix/chocolatey-packages/fa3451bd/ollydbg2/icon/ollydbg.gif</iconUrl>
     <licenseUrl>http://www.ollydbg.de/version2.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>OllyDbg2 is a 32-bit assembler level analysing debugger for Microsoft® Windows®. Emphasis on binary code analysis makes it particularly useful in cases where source is unavailable. OllyDbg is a shareware, but you can download and use it for free.
