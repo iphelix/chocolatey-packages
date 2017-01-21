@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ollydbg2.ollydumpex</id>
+    <version>1.5</version>
+    <title>OllyDbg2 OllyDumpEx Plugin</title>
+    <authors>low-priority</authors>
+    <projectUrl>https://low-priority.appspot.com/ollydumpex/</projectUrl>
+    <tags>reverse engineering debugger disassembler binary analysis</tags>
+    <description>This plugin is process memory dumper for OllyDbg2 and Immunity Debugger.
+Very simple overview:
+OllyDumpEx = OllyDump + PE Dumper - obsoleted + useful features
+
+Features
+Various debuggers supported
+Select to dump debugee exe, loaded dll or non-listed module
+Search PE File from memory
+Multiple Dump mode. Rebuild for typical PE dump, Binary for PE Carving
+PE32+ supported (Search and Binary Dump mode only available on 32bit debugger)
+Native 64bit process supported (IDA Pro, WinDbg and x64dbg)
+Dump any address space as section even if not in original section header
+Add dummy section to keep PE format consistency
+Fix RVA in DataDirectory to follow ImageBase change
+Auto calculate many parameters (RawSize, RawOffset, VirtualOffset, ...)
+</description>
+    <copyright>Freeware</copyright>
+    <docsUrl>https://low-priority.appspot.com/ollydumpex/</docsUrl>
+    <dependencies>
+      <dependency id="ollydbg2" />
+    </dependencies>
+  </metadata>
+</package>
