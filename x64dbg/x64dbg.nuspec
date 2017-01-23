@@ -8,6 +8,7 @@
     <owners>iphelix</owners>
     <licenseUrl>https://github.com/x64dbg/x64dbg/blob/development/LICENSE</licenseUrl>
     <projectUrl>http://x64dbg.com</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/iphelix/chocolatey-packages/06339165/x64dbg/icon/x64dbg.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>An open-source x64/x32 debugger for windows.
 
