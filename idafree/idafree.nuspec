@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>idafree</id>
+    <version>5.0</version>
+    <title>IDA Free</title>
+    <authors>Hex-Rays</authors>
+    <projectUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/iphelix/chocolatey-packages/master/idafree/icon/idafree.ico</iconUrl>
+    <licenseUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>IDA is the Interactive DisAssembler: the world's smartest and most feature-full disassembler, which many software security specialists are familiar with.</description>
+    <copyright>Shareware</copyright>
+    <tags>reverse engineering disassembler binary analysis</tags>
+    <docsUrl>https://www.hex-rays.com/products/ida/support/tutorials/index.shtml</docsUrl>
+  </metadata>
+</package>
