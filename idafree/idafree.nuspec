@@ -6,7 +6,7 @@
     <title>IDA Free</title>
     <authors>Hex-Rays</authors>
     <projectUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/iphelix/chocolatey-packages/master/idafree/icon/idafree.ico</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/iphelix/chocolatey-packages/master/idafree/icon/idafree.gif</iconUrl>
     <licenseUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>IDA is the Interactive DisAssembler: the world's smartest and most feature-full disassembler, which many software security specialists are familiar with.</description>
