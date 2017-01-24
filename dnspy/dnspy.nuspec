@@ -8,6 +8,7 @@
     <owners>iphelixlicense</owners>
     <licenseUrl>https://github.com/0xd4d/dnSpy</licenseUrl>
     <projectUrl>https://github.com/0xd4d/dnSpy</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/iphelix/chocolatey-packages/master/dnspy/icon/dnspy.ico</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>dnSpy is a tool to reverse engineer .NET assemblies. It includes a decompiler, a debugger and an assembly editor (and more) and can be easily extended by writing your own extension. It uses dnlib to read and write assemblies so it can handle obfuscated assemblies (eg. malware) without crashing.
 </description>
