@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>dnspy</id>
+    <version>3.0.1</version>
+    <title>dnSpy</title>
+    <authors>0xd4d, Ki</authors>
+    <owners>iphelixlicense</owners>
+    <licenseUrl>https://github.com/0xd4d/dnSpy</licenseUrl>
+    <projectUrl>https://github.com/0xd4d/dnSpy</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>dnSpy is a tool to reverse engineer .NET assemblies. It includes a decompiler, a debugger and an assembly editor (and more) and can be easily extended by writing your own extension. It uses dnlib to read and write assemblies so it can handle obfuscated assemblies (eg. malware) without crashing.
+</description>
+    <copyright>Freeware</copyright>
+    <tags>reverse engineering debugger disassembler decompiler .net cil il binary analysis</tags>
+    <docsUrl>http://www.ollydbg.de/quickst.htm</docsUrl>
+    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
+    <dependencies>
+      <dependency id="dotnet4.6.1" />
+    </dependencies>
+  </metadata>
+</package>
